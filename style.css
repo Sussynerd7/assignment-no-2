@@ -211,31 +211,77 @@ border-radius: 15px;
     justify-content: space-between;
     
 }
-.searchbar{
-    align-items: center;
+.searchbar {
     display: flex;
     flex-direction: column;
-    
-    height:  533px;
-    width:  1710px;
-    
-    background-repeat: no-repeat;
-    
-    background:url(assets/Adobe\ Express\ -\ file\ \(1\).png);
+    justify-content: center; 
+    align-items: center; 
+    height: 533px;
+    width: 100%; 
     margin-top: 150px;
     text-align: center;
+    background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center; 
+    
+}
 
+.searchbardiv {
+    display: flex;
+   /* Add some spacing between elements */
+    margin-top: 20px; /* Space below the heading */
 }
-.searchbardiv{
-  display: flex;
-  
-  
-}
-.search{
-    height: 52px;
+
+.search {
+    height: 57px;
     width: 644px;
+    padding: 0 15px; /* Add some padding inside the input */
+    border: none;
+    border-radius: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
 }
-.last{
+
+.last {
     position: relative;
-    top: 25%;
+    top:-9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* footer{
+    
+    max-width: 1140px;
+    margin-top:150px;
+    display: flex;
+    justify-content: space-between;
+    
+} */
+footer {
+    max-width: 1140px;
+    margin: 150px auto 0; 
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; 
+}
+.footer-li{
+    list-style: none;
+        color: rgba(0, 0, 0, 0.5);
+font-family: "Inter";
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.f4{
+ display: flex;
+ gap:20px;
+}
+@media (max-width: 393px) {
+
+.main{
+   
+}
+
+
+
 }
