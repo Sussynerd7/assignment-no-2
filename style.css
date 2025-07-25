@@ -7,6 +7,8 @@ font-family: "Noto Serif", serif;
     
 
 }
+
+
 main{
     max-width: 1140px;
     margin: auto;
@@ -55,31 +57,44 @@ nav li {
 
 
 .title h1{
-   font-size: 35px;
-}
-.titles{
-   padding-top: 60px;
+   font-size: 50px;
 
 }
+.title p{
+    position: relative;
+    top:-28px;
+}
+.titles{
+   
+
+}
+
+
  p{
-    font-family: "Inter", sans-serif;
-    font-size:20px;
+    color: rgba(0, 0, 0, 0.5);
+font-family: "Inter";
+font-size: 22px;
+font-weight: 400;
+
+
+
+    
    
  }
 .quote{
     text-align:center;
     align-items: center;
     margin-top: 150px;
-    font-size: 1.5em;
+    
 }
 .quote h1{
-    
+    font-size: 68px;
 }
 .btn-pri{
     border:none;
      font-family: "Inter", sans-serif;
     background: rgb(233, 90, 8);
-    padding:26px 50px 26px 50px;
+    padding:20px 50px 20px 50px;
     color:white;
     width: 270px;
 
@@ -97,4 +112,130 @@ nav li {
     align-items: center;
     text-align:center;
 }
+.description{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 68px;
 
+}
+
+.desc-li{
+    color: rgba(0, 0, 0, 0.5);
+font-family: "Inter";
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.desc-text h1{
+    
+    font-size: 60px;
+    
+}
+.desc-text{
+    text-align: left;
+position: relative;
+top:-28px;
+}
+.desc-ul{
+    position: relative;
+    top: -32px;
+}
+.badge{
+   /* trusted-badge 1 */
+position: absolute;
+width: 28px;
+height: 28px;
+left: 497px;
+top: 2072px;
+box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+background: url(trusted-badge);
+
+}
+.last-quote{
+    margin-top: 150px;
+    text-align: center;
+}
+.imgtext h1{
+    color: white;
+}
+.imgtext{
+    position: relative;
+    top: 31%;
+     display: flex;
+     flex-direction: column;
+
+     
+    text-align: center;
+}
+.lt{
+   
+    background: rgba(0, 0, 0, 0.4),url(image);
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+width: 367px;
+height: 206px;
+border-radius: 15px;
+
+}
+
+.ll {
+    background: rgba(0, 0, 0, 0.4), url(image);
+    background-image: url(assets/deal-ana.png);
+    width: 367px;
+    height: 210px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+}
+
+.r{
+    
+    background: rgba(0, 0, 0, 0.4),url(image);
+    background-image:url(assets/deal-zabo.png);
+    width: 753px;
+    height: 423px;
+    border-radius: 25px;
+}
+.thisissohard{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.searchbar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    height:  533px;
+    width:  1710px;
+    
+    background-repeat: no-repeat;
+    
+    background:url(assets/Adobe\ Express\ -\ file\ \(1\).png);
+    margin-top: 150px;
+    text-align: center;
+
+}
+.searchbardiv{
+  display: flex;
+  
+  
+}
+.search{
+    height: 52px;
+    width: 644px;
+}
+.last{
+    position: relative;
+    top: 25%;
+}
