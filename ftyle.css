@@ -1,0 +1,17 @@
+*{
+    max-width: 393px;
+}
+
+body {
+    font-size: 14px;
+  }
+  .main {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}

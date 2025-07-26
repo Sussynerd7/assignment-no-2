@@ -224,11 +224,13 @@ border-radius: 15px;
     background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center; 
     
 }
-
+.searchh1{
+    color:white;font-size: 44px;
+}
 .searchbardiv {
     display: flex;
    /* Add some spacing between elements */
-    margin-top: 20px; /* Space below the heading */
+    margin-top: 3%; /* Space below the heading */
 }
 
 .search {
@@ -277,13 +279,17 @@ text-align: left;
  display: flex;
  gap:20px;
 }
-@media (max-width: 430px) {
-    /* Adjusting .banner for iPhone */
+@media (max-width: 394px) {
+ 
+.desc-text h1{
+    font-size: 40px;
+ }
+  /* Adjusting .banner for iPhone */
     .banner {
         display: flex;
         flex-direction: column-reverse; /* Reverse the flex direction */
         justify-content: space-between;
-        background-color: aquamarine; /* For testing - can be removed */
+        /* For testing - can be removed */
     }
 
     /* Making only the last list item visible in the nav */
@@ -309,7 +315,10 @@ text-align: left;
         flex-direction: column;
         gap: 20px; /* Space between elements */
     }
-
+.r{
+    width: 367px;
+    height: 210px;
+}
     /* Adjusting .card-container to show 2 cards per line and 6 lines total */
     .card-container {
         display: grid;
@@ -320,7 +329,7 @@ text-align: left;
     /* Ensuring the .description class uses column reverse flex direction */
     .description {
         display: flex;
-        flex-direction: column-reverse; /* Reverse the flex order */
+        flex-direction: column; /* Reverse the flex order */
         justify-content: space-around;
         gap: 30px;
     }
@@ -338,15 +347,28 @@ text-align: left;
 
     /* Adjusting the search bar */
     .searchbar {
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: auto;
+        height: 280px;
         margin-top: 50px;
         background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center;
     }
+    .searchh1{
+        font-size:2px;
+        color:white;
+    }
+.searchdiv input{
+  
+height: 30px;
+position: relative
+;
+top:8px;
 
+
+}
     .search {
         width: 80%;
         max-width: 350px; /* Adjust search input size */
@@ -384,7 +406,9 @@ text-align: left;
     }
 
     .f4 {
+        margin-left:50px;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         gap: 20px;
     }
