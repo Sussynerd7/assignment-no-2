@@ -1,17 +1,137 @@
-*{
-    max-width: 393px;
+@media (max-width: 394px) {
+ .main{
+    max-width: 394px;
+    
+ }
+.desc-text h1{
+    font-size: 40px;
+ }
+  /* Adjusting .banner for iPhone */
+    .banner {
+        display: flex;
+        flex-direction: column-reverse; /* Reverse the flex direction */
+        justify-content: space-between;
+        /* For testing - can be removed */
+    }
+
+    /* Making only the last list item visible in the nav */
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    nav li {
+        font-family: "Inter", sans-serif;
+        list-style: none;
+        display: none; /* Hide all list items */
+    }
+
+    nav li:last-child {
+        display: block; /* Only the last item (cart) is visible */
+    }
+
+    /* Making sure all elements under .thisissohard are stacked vertically */
+    .thisissohard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Space between elements */
+    }
+.r{
+    width: 367px;
+    height: 210px;
 }
+    /* Adjusting .card-container to show 2 cards per line and 6 lines total */
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+        gap: 30px; /* Adjust gap between cards */
+    }
 
-body {
-    font-size: 14px;
-  }
-  .main {
-    width: 100%;
-    padding: 0 10px;
-  }
+    /* Ensuring the .description class uses column reverse flex direction */
+    .description {
+        display: flex;
+        flex-direction: column; /* Reverse the flex order */
+        justify-content: space-around;
+        gap: 30px;
+    }
 
-header{
-    display: flex;
-    justify-content: space-between;
+    .desc-text {
+        text-align: left;
+        position: relative;
+        top: -28px;
+    }
 
+    .desc-ul {
+        position: relative;
+        top: -32px;
+    }
+
+    /* Adjusting the search bar */
+    .searchbar {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 280px;
+        margin-top: 50px;
+        background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center;
+    }
+    .searchh1{
+        font-size:2px;
+        color:white;
+    }
+.searchdiv input{
+  
+height: 30px;
+position: relative
+;
+top:8px;
+
+
+}
+    .search {
+        width: 80%;
+        max-width: 350px; /* Adjust search input size */
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+    }
+
+    .btn-pri {
+        padding: 15px 30px;
+        font-family: "Inter", sans-serif;
+        background: rgb(233, 90, 8);
+        color: white;
+        width: auto;
+        max-width: 200px; /* Adjust button width */
+        margin-top: 10px;
+    }
+
+    /* Adjust footer for iPhone */
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+
+    .footer-li {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: "Inter";
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .f4 {
+        margin-left:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
 }
