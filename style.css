@@ -2,14 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-font-family: "Noto Serif", serif;
-    
+body {
+    font-family: "Noto Serif", serif;
+
 
 }
 
 
-main{
+main {
     max-width: 1140px;
     margin: auto;
 }
@@ -38,7 +38,7 @@ nav li {
 
 .anc {
     text-decoration: none;
-    color: black ;
+    color: black;
 }
 
 /* the header */
@@ -50,70 +50,75 @@ nav li {
 /* the banner */
 /* the banner */
 /* the banner */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-   
-}
-
-
-.title h1{
-   font-size: 50px;
 
 }
-.title p{
+
+
+.title h1 {
+    font-size: 50px;
+
+}
+
+.title p {
     position: relative;
-    top:-28px;
-}
-.titles{
-   
-
+    top: -28px;
 }
 
+.titles {}
 
- p{
+
+p {
     color: rgba(0, 0, 0, 0.5);
-font-family: "Inter";
-font-size: 22px;
-font-weight: 400;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 400;
 
 
 
-    
-   
- }
-.quote{
-    text-align:center;
+
+
+}
+
+.quote {
+    text-align: center;
     align-items: center;
     margin-top: 150px;
-    
+
 }
-.quote h1{
+
+.quote h1 {
     font-size: 68px;
 }
-.btn-pri{
-    border:none;
-     font-family: "Inter", sans-serif;
+
+.btn-pri {
+    border: none;
+    font-family: "Inter", sans-serif;
     background: rgb(233, 90, 8);
-    padding:20px 50px 20px 50px;
-    color:white;
+    padding: 20px 50px 20px 50px;
+    color: white;
     width: 270px;
 
 
 }
-.card-container{
+
+.card-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap:  50px 0;
-    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 0;
+
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align:center;
+    text-align: center;
 }
-.description{
+
+.description {
     margin-top: 150px;
     display: flex;
     justify-content: space-around;
@@ -121,64 +126,72 @@ font-weight: 400;
 
 }
 
-.desc-li{
+.desc-li {
     color: rgba(0, 0, 0, 0.5);
-font-family: "Inter";
-font-size: 22px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
-}
-.desc-text h1{
-    
-    font-size: 60px;
-    
-}
-.desc-text{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
     text-align: left;
-position: relative;
-top:-28px;
 }
-.desc-ul{
+
+.desc-text h1 {
+
+    font-size: 60px;
+
+}
+
+.desc-text {
+    text-align: left;
+    position: relative;
+    top: -28px;
+}
+
+.desc-ul {
     position: relative;
     top: -32px;
 }
-.badge{
-   /* trusted-badge 1 */
-position: absolute;
-width: 28px;
-height: 28px;
-left: 497px;
-top: 2072px;
-box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
-background: url(trusted-badge);
+
+.badge {
+    /* trusted-badge 1 */
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 497px;
+    top: 2072px;
+    box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    background: url(trusted-badge);
 
 }
-.last-quote{
+
+.last-quote {
     margin-top: 150px;
     text-align: center;
 }
-.imgtext h1{
+
+.imgtext h1 {
     color: white;
 }
-.imgtext{
+
+.imgtext {
     position: relative;
     top: 31%;
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-     
+
     text-align: center;
 }
-.lt{
-   
-    background: rgba(0, 0, 0, 0.4),url(image);
+
+.lt {
+
+    background: rgba(0, 0, 0, 0.4), url(image);
     background-image: url(assets/deal-bloom.png);
     background-repeat: no-repeat;
-width: 367px;
-height: 206px;
-border-radius: 15px;
+    width: 367px;
+    height: 206px;
+    border-radius: 15px;
 
 }
 
@@ -189,54 +202,60 @@ border-radius: 15px;
     height: 210px;
     border-radius: 15px;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     overflow: hidden;
 }
 
-.r{
-    
-    background: rgba(0, 0, 0, 0.4),url(image);
-    background-image:url(assets/deal-zabo.png);
+.r {
+
+    background: rgba(0, 0, 0, 0.4), url(image);
+    background-image: url(assets/deal-zabo.png);
     width: 753px;
     height: 423px;
     border-radius: 25px;
 }
-.thisissohard{
+
+.thisissohard {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.right-side{
+
+.right-side {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
+
 .searchbar {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     height: 533px;
-    width: 100%; 
+    width: 100%;
     margin-top: 150px;
     text-align: center;
-    background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center; 
-    
+    background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center;
+
 }
-.searchh1{
-    color:white;font-size: 44px;
+
+.searchh1 {
+    color: white;
+    font-size: 44px;
 }
+
 .searchbardiv {
     display: flex;
-   /* Add some spacing between elements */
-    margin-top: 3%; /* Space below the heading */
+
+    margin-top: 3%;
 }
 
 .search {
     height: 57px;
     width: 644px;
-    padding: 0 15px; /* Add some padding inside the input */
+    padding: 0 15px;
     border: none;
     border-radius: 0px;
     font-family: "Inter", sans-serif;
@@ -245,57 +264,57 @@ border-radius: 15px;
 
 .last {
     position: relative;
-    top:-9%;
+    top: -9%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* footer{
-    
-    max-width: 1140px;
-    margin-top:150px;
-    display: flex;
-    justify-content: space-between;
-    
-} */
+
 footer {
     max-width: 1140px;
-    margin: 150px auto 0; 
+    margin: 150px auto 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px; 
+    padding: 0 20px;
 }
-.footer-li{
+
+.footer-li {
     list-style: none;
-        color: rgba(0, 0, 0, 0.5);
-font-family: "Inter";
-font-size: 22px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.f4{
- display: flex;
- gap:20px;
+
+.f4 {
+    display: flex;
+    gap: 20px;
 }
-@media (max-width: 394px) {
+
+@media (max-width: 426px) {
  .main{
-    max-width: 394px;
+    max-width: 425px;
+ }
+
+    .desc-text h1 {
+        font-size: 40px;
+    }
+.headimg img{
+    width: 100%;
+   
     
- }
-.desc-text h1{
-    font-size: 40px;
- }
-  /* Adjusting .banner for iPhone */
+}
     .banner {
         display: flex;
-        flex-direction: column-reverse; /* Reverse the flex direction */
+        flex-direction: column-reverse;
         justify-content: space-between;
-        /* For testing - can be removed */
+
     }
 
-    /* Making only the last list item visible in the nav */
+
     nav ul {
         display: flex;
         justify-content: space-between;
@@ -305,34 +324,47 @@ text-align: left;
     nav li {
         font-family: "Inter", sans-serif;
         list-style: none;
-        display: none; /* Hide all list items */
+        display: none;
     }
 
     nav li:last-child {
-        display: block; /* Only the last item (cart) is visible */
+        display: block;
     }
 
-    /* Making sure all elements under .thisissohard are stacked vertically */
+
     .thisissohard {
-        display: flex;
-        flex-direction: column;
-        gap: 20px; /* Space between elements */
+        margin-left:20px ;
+        display: block;
+        
+        
+        justify-content: center;
     }
 .r{
     width: 367px;
-    height: 210px;
+    height: 198px;
+    border-radius: 15px;
 }
-    /* Adjusting .card-container to show 2 cards per line and 6 lines total */
-    .card-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
-        gap: 30px; /* Adjust gap between cards */
+
+    .cards {
+       
+
     }
 
-    /* Ensuring the .description class uses column reverse flex direction */
+    .cards img {
+        width: 100%;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-content: center;
+    }
+
+
     .description {
         display: flex;
-        flex-direction: column; /* Reverse the flex order */
+        flex-direction: column;
         justify-content: space-around;
         gap: 30px;
     }
@@ -348,9 +380,9 @@ text-align: left;
         top: -32px;
     }
 
-    /* Adjusting the search bar */
+
     .searchbar {
-        
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -359,22 +391,24 @@ text-align: left;
         margin-top: 50px;
         background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center;
     }
-    .searchh1{
-        font-size:2px;
-        color:white;
+
+    .searchh1 h1 {
+        font-size: 12px;
+        color: white;
     }
-.searchdiv input{
-  
-height: 30px;
-position: relative
-;
-top:8px;
+
+    .searchdiv input {
+
+        height: 30px;
+        position: relative;
+        top: 8px;
 
 
-}
+    }
+
     .search {
         width: 80%;
-        max-width: 350px; /* Adjust search input size */
+        max-width: 350px;
         padding: 10px 15px;
         border: none;
         border-radius: 5px;
@@ -388,11 +422,11 @@ top:8px;
         background: rgb(233, 90, 8);
         color: white;
         width: auto;
-        max-width: 200px; /* Adjust button width */
+        max-width: 200px;
         margin-top: 10px;
     }
 
-    /* Adjust footer for iPhone */
+
     footer {
         display: flex;
         flex-direction: column;
@@ -409,9 +443,9 @@ top:8px;
     }
 
     .f4 {
-        margin-left:50px;
+        margin-left: 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         gap: 20px;
     }
