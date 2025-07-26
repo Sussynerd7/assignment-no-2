@@ -280,134 +280,139 @@ text-align: left;
  gap:20px;
 }
 @media (max-width: 394px) {
-    /* Reset base styles */
-    html, body {
-        width: 100%;
-        overflow-x: hidden;
-    }
+ .main{
+    max-width: 394px;
     
-    main {
-        width: 100%;
-        padding: 0 10px;
-        box-sizing: border-box;
+ }
+.desc-text h1{
+    font-size: 40px;
+ }
+  /* Adjusting .banner for iPhone */
+    .banner {
+        display: flex;
+        flex-direction: column-reverse; /* Reverse the flex direction */
+        justify-content: space-between;
+        /* For testing - can be removed */
     }
-    
-    /* Card container adjustments */
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        width: 100%;
+
+    /* Making only the last list item visible in the nav */
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
     }
-    
-    .cards {
-        width: 100%;
-        padding: 5px;
-        box-sizing: border-box;
+
+    nav li {
+        font-family: "Inter", sans-serif;
+        list-style: none;
+        display: none; /* Hide all list items */
     }
-    
-    .cards img {
-        width: 100%;
-        height: auto;
-        max-height: 120px; /* Reduced image size */
-        object-fit: contain;
+
+    nav li:last-child {
+        display: block; /* Only the last item (cart) is visible */
     }
-    
-    .cards p {
-        font-size: 14px;
-        margin: 5px 0;
-    }
-    
-    .btn-pri {
-        padding: 8px 15px;
-        font-size: 12px;
-        width: 100%;
-        max-width: 120px;
-        margin-top: 5px;
-    }
-    
-    /* Other responsive adjustments */
-    .banner img {
-        max-width: 200px;
-        margin-top: 15px;
-    }
-    
-    .title h1 {
-        font-size: 28px;
-    }
-    
-    .title p, .quote p {
-        font-size: 14px;
-        line-height: 1.4;
-    }
-    
-    .quote h1 {
-        font-size: 32px;
-    }
-    
-    /* Description section */
-    .description {
-        flex-direction: column;
-    }
-    
-    .image img {
-        max-width: 100%;
-    }
-    
-    .desc-text h1 {
-        font-size: 28px;
-    }
-    
-    .desc-li {
-        font-size: 14px;
-    }
-    
-    /* Deal section */
+
+    /* Making sure all elements under .thisissohard are stacked vertically */
     .thisissohard {
+        display: flex;
         flex-direction: column;
+        gap: 20px; /* Space between elements */
     }
-    
-    .lt, .ll, .r {
-        width: 100%;
-        height: 150px;
-        margin-bottom: 10px;
+.r{
+    width: 367px;
+    height: 210px;
+}
+    /* Adjusting .card-container to show 2 cards per line and 6 lines total */
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+        gap: 30px; /* Adjust gap between cards */
     }
-    
-    /* Search bar */
+
+    /* Ensuring the .description class uses column reverse flex direction */
+    .description {
+        display: flex;
+        flex-direction: column; /* Reverse the flex order */
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .desc-text {
+        text-align: left;
+        position: relative;
+        top: -28px;
+    }
+
+    .desc-ul {
+        position: relative;
+        top: -32px;
+    }
+
+    /* Adjusting the search bar */
     .searchbar {
-        height: 200px;
-        padding: 20px 10px;
-        background-size: cover;
-    }
-    
-    .searchh1 {
-        font-size: 24px;
-    }
-    
-    .searchbardiv {
+        
+        display: flex;
         flex-direction: column;
-        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 280px;
+        margin-top: 50px;
+        background: url('assets/Adobe\ Express\ -\ file\ \(1\).png') no-repeat center center;
     }
-    
+    .searchh1{
+        font-size:2px;
+        color:white;
+    }
+.searchdiv input{
+  
+height: 30px;
+position: relative
+;
+top:8px;
+
+
+}
     .search {
-        width: 100%;
-        height: 40px;
-        font-size: 14px;
+        width: 80%;
+        max-width: 350px; /* Adjust search input size */
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
     }
-    
-    /* Footer */
+
+    .btn-pri {
+        padding: 15px 30px;
+        font-family: "Inter", sans-serif;
+        background: rgb(233, 90, 8);
+        color: white;
+        width: auto;
+        max-width: 200px; /* Adjust button width */
+        margin-top: 10px;
+    }
+
+    /* Adjust footer for iPhone */
     footer {
+        display: flex;
         flex-direction: column;
         gap: 20px;
-        padding: 20px 10px;
+        margin-top: 50px;
+        padding: 0 10px;
     }
-    
+
     .footer-li {
-        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: "Inter";
+        font-size: 18px;
+        text-align: left;
     }
-    
+
     .f4 {
-        justify-content: center;
-        gap: 15px;
-        margin-left: 0;
+        margin-left:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
     }
 }
