@@ -280,7 +280,10 @@ text-align: left;
  gap:20px;
 }
 @media (max-width: 394px) {
- 
+ .body{
+    max-width: 394px;
+    
+ }
 .desc-text h1{
     font-size: 40px;
  }
